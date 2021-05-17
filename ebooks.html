@@ -23,7 +23,36 @@
             <link rel="stylesheet" href="assets/css/slick.css">
             <link rel="stylesheet" href="assets/css/nice-select.css">
             <link rel="stylesheet" href="assets/css/style.css">
-   </head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+</head>
 
 <body>
 	
@@ -90,39 +119,76 @@
 							<div class="serial">#</div>
 							<div class="country">Tên file</div>
 							<div class="visit">Tóm tắt</div>
-							<div class="percentage">Tải xuống</div>
+							<div class="percentage2">Tải xuống</div>
 						</div>
 						<div class="table-row">
 							<div class="serial">01</div>
 							<div class="country"> <img src="assets/img/ebooks/epub.png" alt="flag">Epub</div>
 							<div class="visit">Trang web cho bạn tải file pdf các sách</div>	
 							<div class="percentage">
-								<a href="https://www.epub.vn/" target="_blank" class="btn header-btn">Lấy link</a>
+								<a href="https://www.epub.vn/" target="_blank" class="btn header-btn">Xem ngay</a>
 							</div>
 						</div>
 						<div class="table-row">
 							<div class="serial">02</div>
-							<div class="country"> <img src="assets/img/ebooks/atomichabits.png" alt="flag">Atomic Habits (eng)</div>
+							<div class="country"> <img src="assets/img/ebooks/atomichabits.png" alt="flag">Atomic Habits</div>
 							<div class="visit">PDF sách Atomic Habits</div>	
 							<div class="percentage">
-								<a href="https://static.epub.vn/epubvn-ebook/1553178673250-james-clear-atomic-habits_-tiny-changes%2C-remarkable-results-%282018%2C-penguin-publishing-group%29.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20210515%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210515T093930Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=bb1e7994f3910cb21b8317299a0ca47e357268073cffcdd6061b0f91137d769f" target="_blank" class="btn header-btn">Lấy link</a>
+								<div class="dropdown">
+                                   <button class="btn header-btn">Xem ngay</button>
+										<div class="dropdown-content">
+											<a href="pdffiles/atomichabits.pdf">Eng</a>
+											<a href="pdffiles/thoiquennguyentu.pdf">Vie</a>
+										</div>
+								</div>				
 							</div>
 						</div>	
 						
 						<div class="table-row">
 							<div class="serial">03</div>
-							<div class="country"> <img src="assets/img/ebooks/deepwork.png" alt="flag">Deep Work (vie)</div>
+							<div class="country"> <img src="assets/img/ebooks/deepwork.png" alt="flag">Deep Work</div>
 							<div class="visit">PDF sách Deep Work</div>	
 							<div class="percentage">
-								<a href="https://static.epub.vn/epubvn-ebook/1566926188307-deep-work_-lam-ra-lam-choi-ra-c-cal-newport.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20210515%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210515T090610Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=132c644ffa07ded06f228d66d2f36a9b5c8a558373989ea5dff0ca2f6981ae35" target="_blank" class="btn header-btn">Lấy link</a>
+								<div class="dropdown">
+                                   <button class="btn header-btn">Xem ngay</button>
+										<div class="dropdown-content">
+											<a href="pdffiles/deepwork_eng.pdf">Eng</a>
+											<a href="pdffiles/deep-work.pdf">Vie</a>
+										</div>
+								</div>						
 							</div>
 						</div>	
+						
+						<div class="table-row">
+							<div class="serial">04</div>
+							<div class="country"> <img src="assets/img/ebooks/canthurtme.png" alt="flag">Can't hurt me</div>
+							<div class="visit">PDF sách Can't Hurt Me</div>	
+							<div class="percentage">
+								<div class="dropdown">
+                                   <button class="btn header-btn">Xem ngay</button>
+										<div class="dropdown-content">
+											<a href="pdffiles/canthurtme.pdf">Eng</a>									
+										</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="table-row">
+							<div class="serial">05</div>
+							<div class="country"> <img src="assets/img/ebooks/12yearsaslave.png" alt="flag">12 năm nô lệ</div>
+							<div class="visit">PDF sách 12 năm nô lệ</div>	
+							<div class="percentage">
+								<div class="dropdown">
+                                   <button class="btn header-btn">Xem ngay</button>
+										<div class="dropdown-content">
+											<a href="pdffiles/12namnole.pdf">Vie</a>									
+										</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			
-	
-
 <!-- JS here -->
 	
 		<!-- All JS Custom Plugins Link Here here -->
