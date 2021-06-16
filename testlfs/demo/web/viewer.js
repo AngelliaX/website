@@ -22,8 +22,6 @@
  * Javascript code in this page
  */
 
-var name = "";
-
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ([
