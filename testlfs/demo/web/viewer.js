@@ -1,3 +1,5 @@
+
+
 /**
  * @licstart The following is the entire license notice for the
  * Javascript code in this page
@@ -20,13 +22,14 @@
  * Javascript code in this page
  */
 
+var name = "";
+
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ([
 /* 0 */,
 /* 1 */
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
 
 
 Object.defineProperty(exports, "__esModule", ({
@@ -43,13 +46,15 @@ const OptionKind = {
   PREFERENCE: 0x80
 };
 exports.OptionKind = OptionKind;
+
+
 const defaultOptions = {
   cursorToolOnLoad: {
     value: 0,
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   defaultUrl: {
-    value: "compressed.tracemonkey-pldi-09.pdf",
+    value: "http://website.unikfamily.tk/pdffiles/sapiens_eng.pdf",
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
@@ -210,6 +215,13 @@ const defaultOptions = {
     kind: OptionKind.WORKER
   }
 };
+
+
+
+defaultOptions.defaultUrl.value = "lmao";
+//alert(defaultOptions.defaultUrl.value);
+
+
 {
   defaultOptions.disablePreferences = {
     value: false,
@@ -15112,6 +15124,6 @@ if (document.readyState === "interactive" || document.readyState === "complete")
 }
 })();
 
-/******/ })()
-;
+/******/ })();
+
 //# sourceMappingURL=viewer.js.map
