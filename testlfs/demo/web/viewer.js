@@ -45,14 +45,13 @@ const OptionKind = {
 };
 exports.OptionKind = OptionKind;
 
-
 const defaultOptions = {
   cursorToolOnLoad: {
     value: 0,
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   defaultUrl: {
-    value: "http://website.unikfamily.tk/pdffiles/sapiens_eng.pdf",
+    value: "../../../pdffiles/sapiens_eng.pdf",
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
