@@ -216,12 +216,6 @@ const defaultOptions = {
   }
 };
 
-
-
-defaultOptions.defaultUrl.value = "lmao";
-//alert(defaultOptions.defaultUrl.value);
-
-
 {
   defaultOptions.disablePreferences = {
     value: false,
