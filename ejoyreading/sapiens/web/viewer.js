@@ -51,7 +51,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   defaultUrl: {
-    value: "github.com/TungstenVn/website/releases/download/0.0.1-sapiens/sapiens_graphic.pdf",
+    value: "http://github.com/TungstenVn/website/releases/download/0.0.1-sapiens/sapiens_graphic.pdf",
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
