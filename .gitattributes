@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 C:/Users/namxm/OneDrive/Documents/GitHub/website/testlfs filter=lfs diff=lfs merge=lfs -text
+HANDBOOK2021_Final_(bản_đẹp).pdf filter=lfs diff=lfs merge=lfs -text
